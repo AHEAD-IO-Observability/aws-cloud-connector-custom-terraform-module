@@ -92,6 +92,10 @@ For production, mirror Dynatrace's two officially published monitoring policies 
 that exists to stay under the 6144-char managed-policy limit). The policy is the
 permission ceiling; `feature_sets` is the throttle.
 
+## License
+
+Apache License 2.0 — see [`LICENSE`](LICENSE).
+
 ## Dynatrace documentation
 
 - AWS monitoring overview — https://docs.dynatrace.com/docs/ingest-from/amazon-web-services
