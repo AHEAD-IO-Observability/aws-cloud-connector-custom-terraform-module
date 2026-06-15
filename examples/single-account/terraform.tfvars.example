@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is gitignored.
+#
+# Dynatrace auth is supplied via environment variables (see repo README),
+# not in this file. AWS auth is your standard CLI/SSO/profile/env.
+
+aws_account_id    = "111122223333"        # 12-digit AWS account being onboarded
+aws_region        = "us-east-1"
+connection_name   = "example-connection"
+extension_version = "1.0.11"              # active da-aws version in your tenant
+monitored_regions = ["us-east-1"]
+
+tags = {
+  managed-by = "terraform"
+  purpose    = "dynatrace-aws-connector"
+}

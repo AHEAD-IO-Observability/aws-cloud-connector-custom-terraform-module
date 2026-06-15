@@ -1,0 +1,32 @@
+# Local .terraform directories
+**/.terraform/*
+
+# State files (never commit — may contain sensitive values)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variable files that may contain secrets / account-specific values
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output
+*.tfplan
+*.out
+
+# CLI config / provider logs
+.terraformrc
+terraform.rc
+terraform-provider-dynatrace.http.log
+
+# OS / editor
+.DS_Store
+*.swp
